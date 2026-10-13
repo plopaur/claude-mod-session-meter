@@ -36,6 +36,10 @@ tools 4/31  │  turn 12.3s · avg 9.8s · total 2m03s
 30d tokens 710M  ↑ 6k  ↓ 5.5M (est.) · to 10-10  │  api cost $1.23
 ```
 
+Desktop app (Code tab):
+
+<img src="docs/desktop.png" width="1000" alt="session-meter in the Claude desktop app">
+
 ## Fields
 
 | Field | Source |
