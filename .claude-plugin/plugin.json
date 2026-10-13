@@ -1,0 +1,25 @@
+{
+  "name": "session-meter",
+  "version": "0.1.0",
+  "description": "Context, cost, tool calls and turn time above the prompt",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Philipp Lopaur",
+    "email": "pl@loon.at"
+  },
+  "license": "MIT",
+  "userConfig": {
+    "contextYellowTokens": {
+      "type": "number",
+      "title": "Context yellow above (tokens)",
+      "description": "The context bar turns yellow above this many tokens",
+      "default": 150000
+    },
+    "contextRedPercent": {
+      "type": "number",
+      "title": "Context red above (%)",
+      "description": "The context bar turns red above this percent of the window",
+      "default": 50
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "session-meter",
+  "owner": {
+    "name": "Philipp Lopaur",
+    "email": "pl@loon.at"
+  },
+  "description": "Status band above the Claude Code prompt: context, rate limits, cost, tools and turn timing",
+  "plugins": [
+    {
+      "name": "session-meter",
+      "source": "./"
+    }
+  ]
+}
