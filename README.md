@@ -13,6 +13,7 @@ A [Claude Code](https://claude.com/claude-code) mod that draws a live status ban
 - **30-day token totals** (total, input `↑`, output `↓`) read from `~/.claude/stats-cache.json`.
 - **Two layouts** that switch on terminal width: wide (2 rows, from 135 columns) and compact (4 rows, 74 columns). Columns are fixed-width, so values do not shift as numbers change, and in the wide layout `weekly` lines up with `api cost`.
 - **ASCII mode** for ssh and non-UTF-8 terminals, detected automatically.
+- **Desktop app**: in the Claude desktop app's Code tab the meter keeps the same rows, with Unicode glyphs, thin rounded bars and fixed-width columns, since the app draws in a proportional font. `METER_CHARSET=ascii` still forces ASCII there.
 - **`/meter`** command to toggle the meter.
 - Hides itself while a survey is shown. Updates every second during a turn and once a minute otherwise.
 
